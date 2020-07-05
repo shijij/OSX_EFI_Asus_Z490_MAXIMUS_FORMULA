@@ -64,5 +64,17 @@ Ref: [Discussion from tonymacx86](https://www.tonymacx86.com/threads/solved-no-a
 
 Fix: Cold restart when switching into MacOS from Win.
 
+#### Kernel panic cause by GPU
+com.apple.kext.AMDRadeonX6000Framebuffer
+
+This happened once when I power on my second LCD screen. Kernel crashed followed by a restart.
+
+Tried a few more times to reproduce the crash but no luck.
+
+(Power Nap is disabled)
+ 
+#### Unstable DP audio output
+In a 10 seconds timeframe, there will be 0.5 seconds with no sound on average.
+
 ### More bug?
 I will keep you posted.
