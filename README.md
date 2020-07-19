@@ -10,7 +10,9 @@
 * **SSD**: 
     * Win: M2 EVO 1T
     * Mac (10.15.5): M2 EVO Plus 1T
-* **OS** Catalina 10.15.5
+* **OS** 
+    * ~~Catalina 10.15.5~~ 
+    * Catalina 10.15.6
 
 # Credit
 [@jergoo](https://github.com/jergoo/)
