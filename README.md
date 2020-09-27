@@ -12,7 +12,10 @@
     * Mac (10.15.5): M2 EVO Plus 1T
 * **OS** 
     * ~~Catalina 10.15.5~~ 
-    * Catalina 10.15.6
+    * ~~Catalina 10.15.6~~
+    * Catalina 10.15.7
+* **Bootloader** 
+    * OpenCore 0.5.9 
 * **Additional Hardware**
     * Wifi & BT: BCM94360CD (Fenvi branded)
 
