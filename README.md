@@ -1,4 +1,12 @@
 # Hackintosh OpenCore EFI For Asus Z490 MAXIMUS XII FORMULA
+
+## Alert:
+**This hardware configuration is not perfect because there isn't any iGPU support for this motherboard.**
+
+**Avoid ROG MAXIMUS XII EXTREME/FORMULA/APEX if you need Sidecar/iGPU etc..**
+
+**iGPU for these 3 boards aren't powered at all.**
+
 * **CPU**: Intel 10700k
 * **MB**: Asus ROG MAXIMUS XII FORMULA (Z490)
     * **LAN 1: Intel® I225-V 2.5Gb** *[PciRoot(0x0)/Pci(0x1C,0x4)/Pci(0x0,0x0)]*
@@ -57,8 +65,7 @@ This repo was used in my MacOS installation flash drive. I just changed a few th
 * Most USB ports (Speed test not performed)
 
 ## Problems:
-* Sidecar is not working(was able to find, but timed out), WIP
-* iGPU is not working. (Nothing about the EFI, this motherboard does not support igpu, even in headless mode. The igpu is not powered. I can't find the igpu in Windows as well. No igpu related settings in BIOS)
+* iGPU and Sidecar are not working. due to the nature of this motherboard design.
 
 ## Known bugs
 #### Conditionally No Sound from ALC1220 
