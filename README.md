@@ -58,7 +58,7 @@ This repo was used in my MacOS installation flash drive. I just changed a few th
 
 ## Problems:
 * Sidecar is not working(was able to find, but timed out), WIP
-* iGPU seems not working. (This motherboard doesn't even have any video output port)
+* iGPU is not working. (Nothing about the EFI, this motherboard does not support igpu, even in headless mode. The igpu is not powered. I can't find the igpu in Windows as well. No igpu related settings in BIOS)
 
 ## Known bugs
 #### Conditionally No Sound from ALC1220 
