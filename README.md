@@ -7,6 +7,11 @@
 
 **iGPU for these 3 boards aren't powered at all.**
 
+But anyway, I've left the relative configs there already. 
+For more help on iGPU setup, please visit [Here](https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html#deviceproperties)
+
+
+
 * **CPU**: Intel 10700k
 * **MB**: Asus ROG MAXIMUS XII FORMULA (Z490)
     * **LAN 1: Intel® I225-V 2.5Gb** *[PciRoot(0x0)/Pci(0x1C,0x4)/Pci(0x0,0x0)]*
@@ -17,7 +22,7 @@
 * **GPU**: Sapphire Pulse Radeon RX 5700 XT 
 * **SSD**: 
     * Win: M2 EVO 1T
-    * Mac (10.15.5): M2 EVO Plus 1T
+    * Mac: M2 EVO Plus 1T
 * **OS** 
     * ~~Catalina 10.15.5~~ 
     * ~~Catalina 10.15.6~~
