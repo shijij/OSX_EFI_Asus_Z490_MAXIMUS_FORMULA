@@ -15,7 +15,7 @@
     * ~~Catalina 10.15.6~~
     * Catalina 10.15.7
 * **Bootloader** 
-    * OpenCore 0.5.9 
+    * OpenCore 0.6.3 
 * **Additional Hardware**
     * Wifi & BT: BCM94360CD (Fenvi branded)
 
@@ -58,6 +58,7 @@ This repo was used in my MacOS installation flash drive. I just changed a few th
 
 ## Problems:
 * Sidecar is not working(was able to find, but timed out), WIP
+* iGPU seems not working. (This motherboard doesn't even have any video output port)
 
 ## Known bugs
 #### Conditionally No Sound from ALC1220 
@@ -75,9 +76,13 @@ com.apple.kext.AMDRadeonX6000Framebuffer
 
 This happened once when I power on my second LCD screen. Kernel crashed followed by a restart.
 
-Tried a few more times to reproduce the crash but no luck.
+To reproduce it, you will need more than one monitor. randomly toggle their power buttons quickly will trigger this error.
+
+So, do not trigger too many desktop resize(when a display is turned on/off/unplugged/replugged) in a short period of time. I would say 3 times within 5 seconds is dangerous. 
 
 (Power Nap is disabled)
+
+
  
 #### Unstable DP audio output
 In a 10 seconds timeframe, there will be 0.5 seconds with no sound on average.
